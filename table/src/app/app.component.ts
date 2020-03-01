@@ -15,12 +15,4 @@ export class AppComponent {
     this.child = false;
   }
   
-  sendData(){
-    this.child =true;
-  }
-
-  keyPressed(){
-    this.child = false;
-  }
-
 }

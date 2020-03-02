@@ -14,5 +14,7 @@ export class AppComponent {
   changeOccured(){
     this.child = false;
   }
-  
+  sendData(){
+    this.child = true;
+  }
 }

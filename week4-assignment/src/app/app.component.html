@@ -1,0 +1,11 @@
+<h1 class='heading'>Total Number Of Users <span [ngStyle]="{color: userData.length === 0 ? 'red' : 'green'}">: {{userData.length}}</span></h1>
+<div class="container">
+  <div class="row">
+    <div class="col-lg-4 child1">
+      <app-enterdetails (data)='getData($event)'></app-enterdetails>
+    </div>
+    <div class="col-lg-8 child2">
+      <app-userdetails [data]='userData'></app-userdetails>
+    </div>
+  </div>
+</div>

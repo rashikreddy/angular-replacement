@@ -1,0 +1,9 @@
+<div class="container">
+    <h2 class='users'>USERS</h2>
+    <div class='child2 ' *ngFor="let item of data;let i = index">
+  
+      <div [ngStyle]="{color: i%2==0 ? 'red':'blue'}">{{item}}<i (click)="delete(item)"
+          class="fa fa-window-close"></i>
+      </div>
+    </div>
+  </div>

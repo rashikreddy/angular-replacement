@@ -1,0 +1,14 @@
+.container{
+    border-style: groove;
+    padding-right :40px;
+    padding-left: 20px;    
+}
+
+.heading{
+    text-align: center;
+}
+
+button{
+    margin-bottom: 30px;
+    margin-left: 50%;
+}
